@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1 class="heading">Check the Weather Forecast</h1>
+        <div class="col-sm-6 search">
+            <div class="search">
+            <input type="text" id="city" class="form-control" placeholder="Enter city" value="">   
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+           </div>
+          </div>
+          <div class="info">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h3 class="card-title"><span id="cityName"></span></h3>
+              <ul>
+              <li class="points">Cloud_pct: <span id="cloud_pct"></span>%</li>
+              <li class="points">Temp: <span id="temp"></span>&#8451;</li>   
+              <li class="points">Feels_like: <span id="feels_like"></span>&#8451;</li>   
+              <li class="points">Humidity: <span id="humidity"></span>%</li>  
+              <li class="points">Min_temp: <span id="min_temp"></span>&#8451;</li>
+              <li class="points">Max_temp: <span id="max_temp"></span>&#8451;</li>
+              <li class="points">Wind_speed: <span id="wind_speed"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <footer class="footer mt-auto py-3 bg-body-tertiary">
+          <div class="container">
+            <span class="text-body-secondary">&#169; 2023 Priyanshu Sontakke</span>
+          </div>
+        </footer>
+      </div>
+      <script src="app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
