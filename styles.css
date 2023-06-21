@@ -2,7 +2,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    height:100vh;
 }
 body::before {    
     content: "";
