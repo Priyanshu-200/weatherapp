@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing:border-box;
 }
 body::before {    
     content: "";
@@ -59,7 +60,7 @@ img{
     margin: 4rem;
 }
 .footer{
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .card-title{
     text-align: center;
